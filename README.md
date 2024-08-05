@@ -42,3 +42,16 @@ This pipeline is triggered manually.
 This pipeline write data into a `gold` level. It contains data from `silver.customers` but all fields should be filled with data from `silver.user_profiles`.
 Also we use additional fields from `silver.user_profiles` (for example `phone_number`).
 This pipeline is also triggered manually, not scheduled.
+
+## DAGs execution screenshots
+
+![Sales pipeline](images/sales_pipeline.png)
+
+![Customers pipeline](images/customers_pipeline.png)
+
+![User profiles pipeline](images/user_profiles_pipeline.png)
+
+![User profiles enrichment pipeline](images/user_profiles_enrichment_pipeline.png)
+
+## Query formed data
+![Alt text](images/query.png)
